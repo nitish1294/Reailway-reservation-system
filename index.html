@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home-page</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+
+    <body id="top">
+        <!--navbar-->
+        <nav class="navbar">
+            <div class="content">
+                <div class="logo"><a href="#home">Railway</a></div>
+                <ul class="menu-list">
+                    <div class="icon cancel-btn">
+                        <img src="assets/image/menu_close.svg" alt="close">
+                    </div>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="register.jsp">search</a></li>
+                    <li><a href="register.jsp">Services</a></li>
+                    <li><a href="user_login.jsp">User-Login</a></li>
+                    <li><a href="register.jsp">User-Register</a></li>
+                    <li><a href="admin.jsp">Admin</a></li>
+                </ul>
+                <div class="icon menu-btn">
+                    <img src="assets/image/icons8-menu.svg" alt="menu ">
+                </div>
+            </div>
+        </nav>
+
+        <!--slider-->
+        <div class="slider">
+            <div class="list">
+                <div class="item">
+                    <img src="assets/image/railway.png" alt="Image one">
+                </div>
+                <div class="item">
+                    <img src="assets/image/railway2.jpg" alt="Image two">
+                </div>
+                <div class="item">
+                    <img src="assets/image/railway3.jpg" alt="Image three">
+                </div>
+                <div class="item">
+                    <img src="assets/image/railway4.jpg" alt="Image four">
+                </div>
+                <div class="item">
+                    <img src="assets/image/railway5.jpg" alt="Image five">
+                </div>
+            </div>
+            <div class="buttons">
+                <button id="prev"> </button>
+                <button id="next"> </button>
+            </div>
+            <ul class="dots">
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <!--search box -->
+        <!--      - #TOUR SEARCH-->
+        <main id="#Search">
+            <h2 class="title h2">Train Ticket Booking</h2>
+            <p class="search-text">Experience effortless train bookings with we.|</p>
+            <article>
+                <section class="tour-search">
+                    <div class="container">
+
+                        <form action="register.html" class="tour-search-form">
+
+                            <div class="input-wrapper">
+                                <label for="destination" class="input-label">Search From*</label>
+
+                                <input type="text" name="destination" id="destination" required
+                                       placeholder="Enter Arrival" class="input-field">
+                            </div>
+
+                            <div class="input-wrapper">
+                                <label for="people" class="input-label">To Destination*</label>
+
+                                <input type="text" name="people" id="people" required placeholder="To Destination*"
+                                       class="input-field">
+                            </div>
+
+                            <div class="input-wrapper">
+                                <label for="checkin" class="input-label">Travel Date*</label>
+
+                                <input type="date" name="checkin" id="checkin" required class="input-field">
+                            </div>
+
+                            <button type="submit" class="btn btn-secondary">Inquire now</button>
+
+                        </form>
+
+                    </div>
+                </section>
+
+
+
+
+
+                <!-- 
+                - #POPULAR
+                -->
+                <section id="#features">
+                    <section class="popular" id="destination">
+                        <div class="container">
+
+                            <p class="section-subtitle">Popular place</p>
+
+                            <h2 class="h2 section-title">Popular destination</h2>
+
+                            <p class="section-text">
+                                Here this Feature help to reach the popular destination via vande bharat train and you can see the best train to reach the place 
+                            </p>
+
+                            <ul class="popular-list">
+
+                                <li>
+                                    <div class="popular-card">
+
+                                        <figure class="card-img">
+                                            <img src="assets/image/packege-1.jpg" alt="San miguel, italy" loading="lazy">
+                                        </figure>
+
+                                        <div class="card-content">
+
+                                            <p class="card-subtitle">
+                                                <a href="#">Delhi</a>
+                                            </p>
+
+                                            <h3 class="h3 card-title">
+                                                <a href="#">Delhi To Panjab</a>
+                                            </h3>
+
+                                            <p class="card-text">
+                                                train no 00000 you can travel this train to reach the destination.
+                                                <a href="#">learn more</a>
+                                                <a href="#">learn more</a>
+                                            </p>
+
+                                        </div>
+
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="popular-card">
+
+                                        <figure class="card-img">
+                                            <img src="assets/image/packege-2.jpg" alt="Burj khalifa, dubai" loading="lazy">
+                                        </figure>
+
+                                        <div class="card-content">
+
+
+                                            <p class="card-subtitle">
+                                                <a href="#">Utter Pradesh</a>
+                                            </p>
+
+                                            <h3 class="h3 card-title">
+                                                <a href="#">Varanshi To Ayodhya</a>
+                                            </h3>
+
+                                            <p class="card-text">
+                                                train no 00000 you can travel this train to reach the destination.
+                                                <a href="#">learn more</a>
+                                                <a href="#">learn more</a>
+                                            </p>
+
+                                        </div>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="popular-card">
+
+                                        <figure class="card-img">
+                                            <img src="assets/image/packege-2.jpg" alt="Burj khalifa, dubai" loading="lazy">
+                                        </figure>
+
+                                        <div class="card-content">
+
+
+                                            <p class="card-subtitle">
+                                                <a href="#">Utter Pradesh</a>
+                                            </p>
+
+                                            <h3 class="h3 card-title">
+                                                <a href="#">Varanshi To Ayodhya</a>
+                                            </h3>
+
+                                            <p class="card-text">
+                                                train no 00000 you can travel this train to reach the destination.
+                                                <a href="#">learn more</a>
+                                                <a href="#">learn more</a>
+                                            </p>
+
+                                        </div>
+
+                                    </div>
+                                </li>
+
+                            </ul>
+
+                            <button class="btn btn-primary">More destintion</button>
+
+                        </div>
+                    </section>
+                </section>
+                <img src="assets/image/station_bg.avif" alt="">
+            </article>
+        </main>
+
+        <!--fanq section-->
+        <main class="card">
+
+            <h2 class="title">Frequently Asked Questions</h2>
+
+            <div class="acc-container">
+
+                <button class="acc-btn">Q.How can I cancel my rail tickets ?</button>
+                <div class="acc-content">
+                    <p>
+                        You can cancel your ticket (confirmed or waitlisted) with 3 easy steps. Go to "My Orders," select
+                        the train ticket you would like to cancel, and click on the "Cancel Order" button.
+                    </p>
+                </div>
+
+                <button class="acc-btn">
+                    Q. What documents or ID Cards required for online train ticket booking?
+                </button>
+                <div class="acc-content">
+                    <p>
+                        While you are booking your railway ticket online, you are not required to provide any photo identity
+                        card detail. However, you would need to carry one of the identity cards while you are travelling,
+                        which includes, Voter photo identity card that has been issued by the Election Commission of India,
+                        Passport, Driving Licence that has been issued by RTO, PAN Card that has been issued by Income Tax
+                        Department, Student Identity Card with the student's photograph issued by the school or college,
+                        National Bank Passbook with photographs, Credit Cards issued by banks with laminated photographs &
+                        Aadhaar Card.
+                    </p>
+                </div>
+
+                <button class="acc-btn">
+                    Q.What is the cancellation policy for train bookings? Will I get any refund?
+                </button>
+                <div class="acc-content">
+                    <p>
+                        Canceling a train ticket on the website app or website is a hassle-free experience. If your
+                        booking is backed by website’s free cancellation policy and you cancel the trip within the
+                        specified time frame, you get a full refund for your booking.
+                        Also, website offers ‘Trip Guarantee’, which allows you to change the trip details, including
+                        your date of travel, for certain routes and bookings. Please go through the cancellation policy of
+                        your booking for more details.
+                    </p>
+                </div>
+
+                <button class="acc-btn">
+                    Q.How can I check the reservation status of my train ticket?
+                </button>
+                <div class="acc-content">
+                    <p>
+                        this website allows you to check the reservation status of your train ticket by simply typing your
+                        10-digit PNR number.
+                    </p>
+                </div>
+
+                <button class="acc-btn">
+                    Q.Can I book a tatkal ticket?
+                </button>
+                <div class="acc-content">
+                    <p>
+                        Yes, you can book your tatkal ticket on website in case of emergencies or last-minute travel
+                        plans. The tatkal window opens for an hour.
+                    </p>
+                </div>
+
+                <button class="acc-btn">
+                    Q.Will I get a refund on cancellation on online train booking?
+                </button>
+                <div class="acc-content">
+                    <p>
+                        Yes, we provides an instant refund. The refund amount shall be automatically credited to the user's
+                        account used at the time of booking.
+
+                    </p>
+                </div>
+
+                <button class="acc-btn">
+                    Q.How can I book train tickets online?
+                </button>
+                <div class="acc-content">
+                    <p>
+                        You can easily book your train tickets by visiting our website/app and selecting your boarding and
+                        arrival destinations. Choose a train that best suits your needs, fill in your details, proceed to
+                        our easy payment gateway, enter your original IRCTC password, and get your PNR. Your train ticket
+                        booking confirmation will be sent via Email, SMS, or WhatsApp.
+                    </p>
+                </div>
+
+                <button class="acc-btn">
+                    Q.Why was everyone so tired on the First of April?
+                </button>
+                <div class="acc-content">
+                    <p>
+                        Because they had just completed a March of 31 days.
+                    </p>
+                </div>
+
+            </div>
+        </main>
+        <!--    get in touch-->
+        <div class="touch">
+            <div class="get-in-touch">
+                <div class="image">
+                    <img src="assets/image/Get in touch-cuate.svg" alt="">
+                </div>
+                <div class="form-area">
+                    <h2>Contact US</h2>
+                    <form action=register.jsp >
+                        <input type="text" placeholder="Full Name" required>
+                        <input type="email" placeholder="Email" required>
+                        <textarea cols="30" rows="5" placeholder="Your Message" required></textarea>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!--footer section-->
+        <footer>
+            <div class="footer">
+                <ul class="social-icon">
+                    <li class="social-icon__item"><a class="social-icon__link" href="https://www.instagram.com/sharma__nitish0">
+                            <img src="assets/image/instagram icon.png" alt="instagram icon"></a></li>
+                    <li class="social-icon__item"><a class="social-icon__link" href="">
+                            <img src="assets/image/facebook icon.png" alt="facebook icon"></a></li>
+                    <li class="social-icon__item"><a class="social-icon__link" href="https://www.linkedin.com/in/nitish-sharma-a41768230">
+                            <img src="assets/image/linkdin icon.png" alt="linkedin icon"></a></li>
+                    <li class="social-icon__item"><a class="social-icon__link" href="#@">
+                            <img src="assets/image/twitter icon.png" alt="twitter icon"></a></li>
+                </ul>
+                <ul class="menu">
+                    <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">About</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Services</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Team</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+
+                </ul>
+                <p>&copy;2024 Nitish Sharma | All Rights Reserved</p>
+            </div>
+        </footer>
+
+
+        <script src="assets/js/script.js"></script>
+    </body>
+
+</html>
